@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="9e49b1c184274e429819dbae065a3d60" Name="Diagram1">
+        <EntityTypeShape EntityType="LeasingCompanyModel.Assets" Width="1.5" PointX="3" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LeasingCompanyModel.AssetStatuses" Width="1.5" PointX="0.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LeasingCompanyModel.AssetTypes" Width="1.5" PointX="0.75" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LeasingCompanyModel.Contracts" Width="1.5" PointX="5.25" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="LeasingCompanyModel.ContractStatuses" Width="1.5" PointX="3" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LeasingCompanyModel.Department" Width="1.5" PointX="0.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LeasingCompanyModel.Employees" Width="1.5" PointX="3" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="LeasingCompanyModel.Lessees" Width="1.5" PointX="3" PointY="13.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LeasingCompanyModel.Maintenance" Width="1.5" PointX="8.25" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LeasingCompanyModel.MaintenanceTypes" Width="1.5" PointX="6" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LeasingCompanyModel.PaymentMethods" Width="1.5" PointX="7.5" PointY="12.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LeasingCompanyModel.Payments" Width="1.5" PointX="9.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LeasingCompanyModel.PaymentSchedule" Width="1.5" PointX="7.5" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="LeasingCompanyModel.PaymentStatuses" Width="1.5" PointX="7.5" PointY="14.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LeasingCompanyModel.Position" Width="1.5" PointX="0.75" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LeasingCompanyModel.Reports" Width="1.5" PointX="10.5" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LeasingCompanyModel.ReportTypes" Width="1.5" PointX="8.25" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LeasingCompanyModel.sysdiagrams" Width="1.5" PointX="10.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LeasingCompanyModel.User" Width="1.5" PointX="5.25" PointY="9.75" IsExpanded="true" />
+        <AssociationConnector Association="LeasingCompanyModel.FK_Assets_AssetStatuses" ManuallyRouted="false" />
+        <AssociationConnector Association="LeasingCompanyModel.FK_Assets_AssetTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="LeasingCompanyModel.FK_Contracts_Assets" ManuallyRouted="false" />
+        <AssociationConnector Association="LeasingCompanyModel.FK_Maintenance_Assets" ManuallyRouted="false" />
+        <AssociationConnector Association="LeasingCompanyModel.FK_Contracts_ContractStatuses" ManuallyRouted="false" />
+        <AssociationConnector Association="LeasingCompanyModel.FK_Contracts_Employees" ManuallyRouted="false" />
+        <AssociationConnector Association="LeasingCompanyModel.FK_Contracts_Lessees" ManuallyRouted="false" />
+        <AssociationConnector Association="LeasingCompanyModel.FK_PaymentSchedule_Contracts" ManuallyRouted="false" />
+        <AssociationConnector Association="LeasingCompanyModel.FK_Reports_Contracts" ManuallyRouted="false" />
+        <AssociationConnector Association="LeasingCompanyModel.FK_Employees_Department" ManuallyRouted="false" />
+        <AssociationConnector Association="LeasingCompanyModel.FK_Employees_Position" ManuallyRouted="false" />
+        <AssociationConnector Association="LeasingCompanyModel.FK_Reports_Employees" ManuallyRouted="false" />
+        <AssociationConnector Association="LeasingCompanyModel.FK_User_Employees" ManuallyRouted="false" />
+        <AssociationConnector Association="LeasingCompanyModel.FK_Maintenance_MaintenanceTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="LeasingCompanyModel.FK_Payments_PaymentMethods" ManuallyRouted="false" />
+        <AssociationConnector Association="LeasingCompanyModel.FK_Payments_PaymentSchedule" ManuallyRouted="false" />
+        <AssociationConnector Association="LeasingCompanyModel.FK_Payments_PaymentStatuses" ManuallyRouted="false" />
+        <AssociationConnector Association="LeasingCompanyModel.FK_Reports_ReportTypes" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
